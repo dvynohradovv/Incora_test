@@ -1,4 +1,4 @@
-# **MyUser Django Rest Framework**
+# **AbstractUser Django Rest Framework**
 # **Create RESTful API:**
 
 ***
