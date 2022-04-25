@@ -1,22 +1,32 @@
 # **AbstractUser Django Rest Framework**
-# **Create RESTful API:**
-
 ***
 
-## 1. `/users POST` - create user with the next fields: first_name (required, only letters),
-last_name (only letters), email (required, unique, correct format), phone (correct format),
-password (hash)
-![image](https://user-images.githubusercontent.com/55922843/158596901-72a32558-88bc-4534-b1ad-5930a7f4e85b.png)
+<img src="https://user-images.githubusercontent.com/55922843/158596901-72a32558-88bc-4534-b1ad-5930a7f4e85b.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="800" height="700" />
 
+# Endpoints:
+***
+- /users POST
+- /login POST
+- /users/:id GET
+- /users/:id PUT
+# Requirements
+***
+- **Python > 3.9**
 
-## 2. `/login POST` - create API for user login by email and password. Use JWT authentication
-![image](https://user-images.githubusercontent.com/55922843/158596954-ef57bb90-d056-46ea-9e13-8d2915dfdcac.png)
+# Run
+***
+- **Install virtualenv:** `pip install virtualenv`
 
+- **Create virtual environment:** `virtualenv env` or `python -m venv env`
 
-## 4. `/users/:id GET` - get 1 user by id.
-![image](https://user-images.githubusercontent.com/55922843/158597100-02042c35-e147-4e99-8332-489876a72b6d.png)
+- **Activate virtualenv:**
 
+    **unix:** `source env/Scripts/activate`
+  
+    **windows:** `env/Scripts/activate.bat`
 
-## 6. `/users/:id PUT` - update user, add validation. Connect Socket.IO for sending push notifications after user update.
-![image](https://user-images.githubusercontent.com/55922843/158597164-d21b88de-cb03-489c-9055-8cee65dee98c.png)
+- **Install all requirements:** `pip install -r requirements.txt`
 
+- **Run all migrations:** `python manage.py migrate`
+  
+- **Run local server:** `python manage.py runserver`
