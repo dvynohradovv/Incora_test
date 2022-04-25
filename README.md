@@ -5,10 +5,10 @@
 
 # Endpoints:
 ***
-- /users POST
-- /login POST
-- /users/:id GET
-- /users/:id PUT
+- `/users POST`
+- `/login POST`
+- `/users/:id GET`
+- `/users/:id PUT`
 # Requirements
 ***
 - **Python > 3.9**
