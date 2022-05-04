@@ -1,7 +1,7 @@
 # **AbstractUser Django Rest Framework**
 ***
 
-<img src="https://user-images.githubusercontent.com/55922843/158596901-72a32558-88bc-4534-b1ad-5930a7f4e85b.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="800" height="700" />
+<img src="https://user-images.githubusercontent.com/55922843/158596901-72a32558-88bc-4534-b1ad-5930a7f4e85b.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png"/>
 
 # Endpoints:
 ***
